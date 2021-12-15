@@ -1,0 +1,32 @@
+<html>
+<body>
+<h1 id="demo" onmouseout="func_name()" onmouseover="func_name2()">click here</h1>
+<p id="para"> </p>
+<script>
+function func_name()
+{
+	var a=document.getElementById('demo');
+	a.innerHTML="Don't click here";
+	a.style.color="brown";
+	a.style.fontStyle="italic";
+	a.style.backgroundColor="cyan";
+}
+function func_name2()
+{
+	var a=document.getElementById('demo');
+	a.innerHTML="Click here";
+	a.style.color="Green";
+	a.style.fontStyle="bold";
+	a.style.backgroundColor="yellow";
+}
+function func_name3()
+{
+	var a=document.getElementById('para');
+	a.innerHTML="I said you to don't click here";
+	a.style.color="yellow";
+	a.style.fontStyle="underline";
+	a.style.backgroundColor="violet";
+}
+</script>
+</body>
+</html>

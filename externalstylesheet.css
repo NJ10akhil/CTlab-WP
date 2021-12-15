@@ -1,0 +1,20 @@
+body{
+background-color:purple;
+}
+p{
+color:green;
+font-size:50px;
+letter-spacing:6;
+font-family:monospace;
+}
+h1{
+font-size:100px;
+color:cyan;
+}
+table,th,td{
+border:2px solid;
+border-spacing:2px;
+
+color:cyan;
+
+}
